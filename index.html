@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        box-sizing: content-box;
+    }
+        body{
+    
+            background-color: rgb(240, 199, 150);
+        }
+        
+        #dhruv{
+            /* background-color:; */
+            border-width: 10px;
+            border-color: rgb(138, 6, 6);
+            border-style: solid;
+            border-radius: 10px;
+        
+             padding-left: 300px;
+             padding-right: 150px;
+             padding-top: 20px;
+             padding-bottom: 20px;
+            margin-left: 250px;
+            margin-right: 250px;    
+            background-color: white; 
+            padding-bottom: 10px;      
+            
+        }
+        .button{
+            border-radius: 20px;
+            cursor: pointer;
+            padding: 7px;
+            color: rgb(139, 11, 71);
+        }
+        .one{
+            width: 100px;
+            height: 15px
+            
+            
+
+              
+            
+        }
+        .label{
+            font-family: cursive;
+            font-weight: bold;
+            margin-left: auto;
+
+            color: rgb(12, 12, 12);
+        }
+        span{
+            font-family:cursive;
+        }
+        #assign{
+            font-family: cursive;
+            text-shadow:4px 4px 2px rgb(209, 150, 77);
+
+        }
+
+
+
+
+        @media (max-width:700px) and (min-width:250px) {
+            form{
+                width: 58%;
+                height:auto;
+                box-sizing:content-box;
+                padding-right: 0px; 
+                padding-left: 0px;
+                margin: auto;
+                
+
+
+
+
+            }
+            h1{
+                width: auto;
+                height: auto;
+                /* padding-right:10px ;
+                margin-top: 5px; */
+                margin-left: -138px;
+            }
+            h3{
+                margin-left: -246px;
+            }
+            div{
+                width: 93%;
+                height: auto;
+                box-sizing: content-box;
+                padding-right: 361px;
+                
+
+            }
+          .label{
+            margin-left: -246px;
+             }
+           
+           .garv{
+            margin-left: -240px;
+            
+           }
+        }
+        
+        
+        
+        
+        
+        </style>
+</head>
+<body>
+    <form action="https://enw7u145b8im9.x.pipedream.net" id="dhruv">
+         <h1 id="assign">ASSIGNMENT 4</h1> 
+
+      <div>
+                       <label for="name" class="label">First Name:</label>
+                      <input required type="text" name="first_name" id="fname" class="one" >
+    </div>
+
+       <div> 
+                   <label for="name" class="label">Last Name:</label>
+                   <input required type="text" name="last_name" id="lname" class="one" >
+    </div>
+
+        <div> 
+                    <label for="Street" class="label">Street:</label>
+                    <input required type="text" name="street_address" id="Street" class="one" >
+                </div>
+     
+            <div> 
+                   <label for="city" class="label">City:</label>
+                  <input required type="text" name="city" id="city" class="one" >
+            </div>
+
+             <div>
+                 <label for="name" class="label">State:</label>
+                <input required type="text" name="state" id="state" class="one" ></div>
+         
+                <div>
+                     <label for="name" class="label">Pincode:</label>
+                    <input required type="number" name="pincode" id="pincode" class="one" >
+                </div>
+
+           <div>
+            <label for="contact number" class="label">Contact no.:</label>
+        <input required type="number" name="contact_name" class="one" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                
+                </div>
+
+<h3><strong><em>RATING:-</em></strong></h3>
+<div>
+<label for="QOP" class="label">QUALITY OF PRODUCT</label><br><div class="garv">
+<span> EXCELLENT:<input type="radio" name="quality_of_products" id="QOP" value="EXCELLENT"></span>
+<span>GOOD: <input type="radio" name="quality_of_products" id="QOP" value="GOOD"></span>
+<span>BAD: <input type="radio" name="quality_of_products" id="QOP" value="BAD"></span>
+</div></div>
+
+<div>
+<label for="VOM" class="label">Value for Money</label><br><div class="garv">
+<span>EXCELLENT: <input type="radio" name="value_for_money_rating" id="VOM" value="EXCELLENT"></span>
+    <span>GOOD <input type="radio" name="value_for_money_rating" id="VOM" value="GOOD"> </span>
+<span>BAD: <input type="radio" name="value_for_money_rating" id="VOM" value="BAD"></span>
+</div>
+      </div>    
+      <div>   
+      <label for="delivery" class="label">QUALITY OF PRODUCT</label><br>
+      <div class="garv">
+     <span>EXCELLENT: <input required type="radio" name="delivery_rating" id="delivery" value="EXCELLENT"></span>
+      <span>GOOD: <input required type="radio" name="delivery_rating" id="delivery" value="GOOD"></span>
+      <span>BAD: <input required type="radio" name="delivery_rating" id="delivery" value="BAD"></span></div><br>
+</div>
+      <div><input type="submit" value="Submit" class="button">
+        <input type="reset" value="reset" class="button"></div>
+      </form>
+</body>
+</html>
